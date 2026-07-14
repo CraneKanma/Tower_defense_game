@@ -17,7 +17,7 @@
 - 单例模式管理游戏状态
 
 ## 在线试玩
-[WebGL版本链接]（如果你做了WebGL打包并部署，放链接在这里）
+[点击这里在线试玩](https://cranekanma.github.io/Tower_defense_game/)
 
 ## 下载
 [Windows版本下载链接]（如果打包了exe压缩包，可以放在GitHub Release里）
