@@ -31,7 +31,7 @@ public class UIManager : MonoBehaviour
             GameObject btnObj = Instantiate(towerButtonPrefab, buttonContainer);
             
             // 设置按钮图标和文字（假设按钮Prefab上有Image和Text子物体）
-            btnObj.GetComponentInChildren<TextMeshProUGUI>().text = tower.towerName + "\n" + tower.cost + "金币";
+            btnObj.GetComponentInChildren<TextMeshProUGUI>().text = tower.towerName + "\n" + tower.cost + "Gold";
             
             Image iconImage = btnObj.transform.Find("Icon").GetComponent<Image>();
             if (iconImage != null && tower.icon != null)
